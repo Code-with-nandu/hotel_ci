@@ -1,0 +1,65 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.h-font {
+    font-family: 'Merienda', cursive;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+/* Button */
+.custom-bg {
+    background-color: #2ec1ac;
+}
+
+.custom-bg:hover {
+    background-color: #279e8c;
+}
+
+.avibiltity-form{
+    margin-top: -50px;
+    z-index: 2;
+    position: relative;
+}
+/* Responsive Design */
+@media (max-width: 768px) {
+/* Adjust the button size and text for mobile screens */
+.custom-bg {
+    font-size: 14px;
+    padding: 8px 15px;
+    max-width: 100%; /* Full width on smaller devices */
+}
+
+input[type=number] {
+    width: 100%; /* Input fields to take full width on mobile */
+    font-size: 14px; /* Slightly smaller font for mobile */
+    padding: 8px;
+}
+.avibiltity-form{
+    margin-top: 25px;
+    padding: 0 35px;
+
+}
+}
+
+@media (max-width: 480px) {
+.custom-bg {
+    font-size: 12px;
+    padding: 6px 12px;
+}
+.avibiltity-form{
+    margin-top: 25px;
+    padding: 0 35px;
+
+}
+}
