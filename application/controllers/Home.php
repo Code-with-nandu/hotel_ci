@@ -5,10 +5,12 @@ class Home extends CI_Controller
     {
         parent::__construct();
     }
-    public function index(){
+    public function index()
+    {
         $this->load->view('home');
     }
+    public function facilites()
+    {
+        $this->load->view('facilites.php');
+    }
 }
-
-?>
-
