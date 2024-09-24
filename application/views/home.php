@@ -486,6 +486,10 @@
             slidesPerView: "auto",
             slidesPerView: "3",
             loop: true,
+            autoplay: {
+                delay: 1000,
+                disableOnInteraction: false,
+            },
             coverflowEffect: {
                 rotate: 50,
                 stretch: 0,

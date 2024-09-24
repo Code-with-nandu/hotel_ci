@@ -54,4 +54,5 @@ $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
 
-$route['facilites'] = 'Home/facilites';
+$route['facilites'] = 'Home/facilites'; //facilites page 
+$route['about'] = 'Home/about'; //about us page create

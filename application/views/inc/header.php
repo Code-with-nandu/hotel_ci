@@ -25,7 +25,7 @@
                         <a class="nav-link me-2" href="#">Contact Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="about.php">About</a>
+                        <a class="nav-link" href="<?php echo base_url('index.php/about'); ?>">About</a>
                     </li>
                 </ul>
                 <div class="d-flex">

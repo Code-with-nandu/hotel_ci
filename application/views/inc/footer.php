@@ -47,7 +47,7 @@
 
             <p>
                 <strong>
-                    Copyright &copy;2012-<span id="currentYear"></span>, <span id="formattedDate"></span> at <span id="formattedTime"></span>, GMT+5:30 ,<a href="http://krishnendu.in.co">KRISHNENDU @ KRISHNENDU</a>.
+                    Copyright &copy;2012-<span id="currentYear"></span>, <span id="formattedDate"></span> at <span id="formattedTime"></span>, GMT+5:30 ,<a href="https://krishnendudalui.in.net/webvilla/">KRISHNENDU @ KRISHNENDU</a>.
                 </strong>
                 All rights reserved.
             </p>

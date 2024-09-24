@@ -13,4 +13,9 @@ class Home extends CI_Controller
     {
         $this->load->view('facilites.php');
     }
+
+    public function about()
+    {
+        $this->load->view('about.php');
+    }
 }
